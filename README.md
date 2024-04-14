@@ -23,7 +23,7 @@ This project consists of a login/sign-up form with a sleek and modern design. Us
 
 
 ## Demo
-You can view a live demo of the image slider [here](#).
+You can view a live demo of the image slider (https://parasnegi783.github.io/Login_Page/).
 
 ## Credits
 - Font Awesome: Icons used in the project.
