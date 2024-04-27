@@ -6,11 +6,17 @@
 }
 
 body {
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/009/832/280/non_2x/abstract-pastel-background-of-geometric-shapes-free-vector.jpg); */
+    /* background-image: url(https://img.freepik.com/premium-vector/vector-modern-abstract-fluid-dynamic-colorful-vector-background-abstract-background_921039-954.jpg?w=900); */
+    /* background-image: url(https://media.gettyimages.com/id/836276708/photo/pastels.jpg?s=612x612&w=0&k=20&c=9-WiNbXul9Ua7LUfPqwAlVRW_6mYZrBka7CJM8wIyDA=); */
+    background-repeat: no-repeat;
+    background-image: url(bg3.png);
+    /* background-size: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: #444;
+    /* background: #444; */
 }
 
 .container {
@@ -20,6 +26,7 @@ body {
     background: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    opacity: 0.7;
     overflow: hidden;
 }
 
@@ -30,7 +37,8 @@ body {
     left: -50%;
     width: 100%;
     height: 100%;
-    background: cadetblue;
+    background: #029d73;
+    /* opacity: 0.5; */
     z-index: 6;
     transform: translateX(100%);
     transition: 1s ease-in-out;
@@ -72,13 +80,13 @@ form.sign-up-form {
 
 .title-1 {
     font-size: 37px;
-    color: cadetblue;
+    color: #39B593;
     margin-bottom: 10px;
 }
 
 .title-2 {
     font-size: 45px;
-    color: cadetblue;
+    color: #39B593;
     margin-bottom: 10px;
 }
 
@@ -95,7 +103,7 @@ form.sign-up-form {
 .input-field i {
     flex: 1;
     text-align: center;
-    color: cadetblue;
+    color: #39B593;
     font-size: 18px;
 }
 
@@ -115,7 +123,7 @@ form.sign-up-form {
     height: 50px;
     border: none;
     border-radius: 50px;
-    background: cadetblue;
+    background: #39B593;
     color: #fff;
     font-weight: 600;
     margin: 10px 0;
@@ -124,11 +132,11 @@ form.sign-up-form {
 }
 
 .btn:hover {
-    border: solid cadetblue;
+    border: solid #39B593;
     background-color: white;
-    color: cadetblue;
-    box-shadow: 0px 0px 7px cadetblue inset,
-        0px 0px 7px cadetblue;
+    color: #39B593;
+    box-shadow: 0px 0px 7px #39B593 inset,
+        0px 0px 7px #39B593;
 }
 
 .social-text {
